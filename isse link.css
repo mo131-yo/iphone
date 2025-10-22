@@ -232,7 +232,6 @@ strong{
 .scroll-brand1{
   display: flex;
   gap: 20px;
-  width: 2064px;
   overflow-x: scroll;
   scroll-behavior: smooth;
 }
@@ -374,10 +373,9 @@ font-weight:  700px;
   display: flex;
   position: relative;
   top: 30px;
-  margin-left: 0;
-  width: 2064px;
   overflow-x: scroll;
   scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 .box1{
   width: 480px;
@@ -460,9 +458,9 @@ text-align: center;
 .fav{
   display: flex;
   gap: 20px;
-  width: 1064px;
   overflow-x: scroll;
   scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 .fav2{
 border-radius: 18px;
@@ -613,21 +611,34 @@ margin-top: 20px;
 }
 .tavdah-menu{
 margin-top: 20px;
+position: relative;
   overflow-x: scroll;
   scroll-behavior: smooth;
-  width: 1640px;
+  scroll-snap-type: x mandatory;
+}
+.suuliin-menu{
+  position: relative;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 .ungulug{
   font: 30px;
   color: black;
 }
+.reklam-1{
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
 .reklam{
   display: flex;
   gap: 20px;
-  height:500px;
-  width: 1640px;
-    overflow-x: scroll;
+  overflow-x: scroll;
   scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 .zuragnuud1{
   background: url("./fpic1.jpg");
@@ -636,7 +647,6 @@ margin-top: 20px;
 box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
 width: 480px;
 height: 500px;
-box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
 
 }.zuragnuud2{
@@ -646,7 +656,6 @@ border-radius: 18px;
 box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
 width: 480px;
 height: 500px;
-box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
 
 }
@@ -657,7 +666,6 @@ border-radius: 18px;
 box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
 width: 480px;
 height: 500px;
-box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
 }
 .zuragnuud4{
@@ -667,13 +675,12 @@ border-radius: 18px;
 box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
 width: 480px;
 height: 500px;
-box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
 }
 .apple-reklam1{
   background: url("./late1.jpg");
   background-position: center;
-  background-size: cover;box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  background-size: cover;
 width: 480px;
 height: 500px;
 box-shadow: 2px 4px 12px 0px #00000014;
@@ -682,7 +689,7 @@ border-radius: 18px;
 .apple-reklam2{
   background: url("./late2.jpg");
   background-position: center;
-  background-size: cover;box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  background-size: cover;
 width: 480px;
 height: 500px;
 box-shadow: 2px 4px 12px 0px #00000014;
@@ -691,7 +698,7 @@ border-radius: 18px;
 .apple-reklam3{
   background: url("./late3.jpg");
   background-position: center;
-  background-size: cover;box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  background-size: cover;
 width: 480px;
 height: 500px;
 box-shadow: 2px 4px 12px 0px #00000014;
@@ -700,15 +707,16 @@ border-radius: 18px;
 .apple-reklam4{
   background: url("./late4.jpg");
   background-position: center;
-  background-size: cover;box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  background-size: cover;
 width: 480px;
-height: 500px;box-shadow: 2px 4px 12px 0px #00000014;
+height: 500px;
+box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
 }
 .apple-reklam5{
   background: url("./late5.jpg");
   background-position: center;
-  background-size: cover;box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  background-size: cover;
 width: 480px;
 height: 500px;
 box-shadow: 2px 4px 12px 0px #00000014;
@@ -792,7 +800,7 @@ border-radius: 18px;
   height: 8px;
 }
 /* FOR phone */
-@media screen and (max-width:430px) {
+@media screen and (max-width:430px) and (min-width:320px) {
   .apple-icon{
    width: 29px;
     height: 28px;
@@ -869,51 +877,31 @@ strong{
 .person-pic{
   height: 10%;
 }
-.scroll-brand{
-  height: 90%;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-}
-.scroll-brand1{
-  height: 90%;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-}
-.fav{
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-}
-.box{
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-}
 .scrolltoi-title{
     padding-top: 50px;
 }
+.reklam{
+  display: inline-flex;
+}
+.reklam-1{
+  display: inline-flex;
+}
+.tab{
+  width: 200px;
+  height: 100px;
+}
+.end{
+  position: sticky;
+}
 .box{
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-}
-}
-
-/* FOR TABLET */
-@media screen and (max-width:1024px) and (min-width:768px){
-  .scroll-brand1{
-  overflow-x: scroll;
-  scroll-behavior: smooth;
+  display: inline-flex;
 }
 .fav{
-  overflow-x: scroll;
-  scroll-behavior: smooth;
+  display: inline-flex;
 }
-.box{
-  overflow-x: scroll;
-  scroll-behavior: smooth;
 }
-.reklam{
-   overflow-x: scroll;
-  scroll-behavior: smooth;
-}
+/* FOR TABLET */
+@media screen and (max-width:1024px) and (min-width:768px){
 .iph16{
 height: 500px;
   width: 400px;
@@ -941,9 +929,5 @@ height: 500px;
 }
 .gift-title{
   font-size: 120%;
-}
-.box{
-overflow-y: scroll;
-  scroll-behavior: smooth;
 }
 }
