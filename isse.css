@@ -1,6 +1,10 @@
 header {
   height: 692px;
 }
+.apple{
+  display: flex;
+  gap: 24px;
+}
 nav {
   font-size: 12px;
   background-color: rgba(245, 245, 247, 0.8);
@@ -17,6 +21,7 @@ nav {
 }
 .div {
   font-size: 12px;
+  color: black;
 }
 .haih-icon {
   width: 12px;
@@ -55,12 +60,14 @@ nav {
   font-weight: 600;
   color: rgba(245, 245, 247, 1);
   font-style: Semi bold;
+  padding-bottom: 10px;
 }
 .hello-title {
   font-weight: 400;
   font-size: 24px;
   justify-content: center;
   color: rgba(245, 245, 247, 1);
+  padding-bottom: 10px;
 }
 .learn {
   background-color: rgba(0, 113, 227, 1);
@@ -96,6 +103,13 @@ nav {
   text-align: center;
   align-content: center;
 }
+.mac{
+  background: url("./mac.jpg");
+  background-position: center;
+  background-size: contain;
+  width: 408px;
+ height: 500px;
+}
 .buttons {
   padding: 12px;
   padding-right: 20px;
@@ -113,6 +127,7 @@ nav {
   margin-top: 10px;
   justify-items: center;
   padding-top: 60px;
+  padding-bottom: 10px;
 }
 .iphone16_title {
   font-size: 52px;
@@ -158,9 +173,6 @@ nav {
 }
 .taniltsuulag {
   overflow-x: hidden;
-  display: flex;
-  flex-direction: column-reverse;
-  gap: 10px;
   flex-wrap: wrap;
 }
 .dual {
@@ -211,6 +223,7 @@ text-align: center;
 }
 .learn-buy{
   display: flex;
+  gap: 10px;
   flex-direction: row;
   justify-content: center;
   position: relative;
@@ -238,21 +251,28 @@ text-align: center;
   background-size: cover;
   width: 962px;
   height: 580px;
+  position: relative;
+  justify-content: center;
 }
 .hand {
+  background: url("./2hand.jpg");
   background-position: center;
   background-size: cover;
   width: 962px;
   height: 580px;
+  position: relative;
 }
 .qq1 {
   display: flex;
+  gap: 10px;
 }
 .pre {
   display: flex;
+  gap: 10px;
 }
 .aa1 {
   display: flex;
+  gap: 10px;
 }
 .tablet {
   background: url("./tablet.jpg");
@@ -494,6 +514,64 @@ height: 8px;
 border-radius: 50%;
 background: #0000006B;
 }
+.macand{
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.class{
+   font-size: 24px;
+  font-weight: 400;
+  color: black;
+  padding-bottom: 15px;
+}
+.learn-buy-1{
+  position: relative;
+  top:0;
+}
+.c{
+  display: flex;
+  flex-direction: column;
+}
+.clas{
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+  top: 50px;
+  width: 40%;
+  display: flex;
+  flex-flow:wrap;
+justify-content: center;
+}
+.learn-2{
+  background-color: rgba(0, 113, 227, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  width: 160px;
+  height: 44px;
+  border-radius: 999px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 80px;
+  left: 400px;
+}
+.b{
+ padding-top: 20px;
+}
+.learn-buy-2{
+  position: relative;
+  display: flex;
+  gap: 10px;
+  top: 350px;
+  justify-content: center;
+}
 /* FOR PHONE */
 @media screen and (max-width:435px) and (min-width:320px) {
 body{
@@ -540,7 +618,6 @@ display: flex;
   background-position: center;
   background-size: cover;
 }
-
 .tses{
   background: url("./globalnav-menutrigger-bread-top.png");
   background: url("./globalnav-menutrigger-bread-top\ \(1\).png");
@@ -574,7 +651,6 @@ display: flex;
   height: 500px;
   background-position: center;
 }
-
 .tsag{
   background: url("./a6.jpg");
   background-position: center;
@@ -607,14 +683,6 @@ height: 500px;
  background-position: center;
   background-size: cover;
   background: url("./a5.jpg");
-}
-.mac{
-width: 408px;
-height: 500px;
- background-position: center;
-  background-size: cover;
-  background: url("./a2.png");
-  margin-top: 10px;
 }
 .scroll{
   overflow-x: scroll;
@@ -673,8 +741,35 @@ height: 495px;
 .neg{
 display: flex;
 }
+.songoltuudiin-tom-title{
+  color: white;
 }
-
+.classic{
+  color: white;
+  
+}
+.learn-buy{
+  display: flex;
+  gap: 20px;
+}
+.songoltuudiin-tom-title-1{
+  color: black;
+}
+.classic-1{
+  color: black;
+}
+.cu{
+  position: relative;
+  top: 80px;
+}
+.learn-buy-1{
+  position: relative;
+  top: 100px;
+}
+.learn-buy-1 .buy{
+  display: none;
+}
+}
 /* FOR TABLET */
 @media screen and (max-width:1024px) and (min-width:768px)
 {
@@ -791,4 +886,22 @@ height: 368px;
     margin-top: 2px;
   }
   
+.mac{
+position: relative;
+left: 1000px;
+overflow-x: hidden;
+}
+}
+/* for computer */
+@media screen and (max-width:1440px) and (min-width:1024px) {
+  .pre{
+    margin-top: 10px;
+  }
+  .aa1{
+    margin-top: 10px;
+  }
+  .gift-back{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }

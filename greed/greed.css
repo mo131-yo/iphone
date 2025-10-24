@@ -34,7 +34,7 @@ body{
     column-gap: 15px;
     row-gap: 12px;
     grid-template-columns:repeat(3, 150px);
-    grid-template-rows: repeat(2, 150px);
+    grid-template-rows: repeat(2, 200px);
     background-color: purple;
 }
 .a-1{
@@ -220,6 +220,15 @@ grid-column: 1/3;
     grid-template-rows: 200px repeat(2, 100px);
     grid-template-columns: repeat(3,300px);
 }
+.fa{
+    display: grid;
+    row-gap: 8px;
+    column-gap: 8px;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(2,300px);
+    background-color: green;
+    border-width: 10px;
+}
 .f-1{
     background-color: orange;
 }
@@ -231,7 +240,7 @@ grid-column: 1/3;
     background-color: yellowgreen;
     grid-row: 2/4;
 }
-.f-4{
+/* .f-4{
     background-color: blue;
     grid-column: 2/4;
     grid-row: 2/4;
@@ -241,7 +250,7 @@ grid-column: 1/3;
 .f-5{
     display: grid;
     background-color: aqua;
-}
+} */
 .f-6{
     background-color: rgb(156, 53, 53);
 }

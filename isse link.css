@@ -1,6 +1,10 @@
 .header{
   width: 100vh;
 }
+.apple{
+  display: flex;
+  gap: 24px;
+}
 nav {
   display: flex;
   gap: 24px;
@@ -25,9 +29,39 @@ nav {
   width: 13px;
   height: 15px;
 }
+.add{
+  display: flex;
+  width: 40%;
+  gap: 10px;
+}
 .holbogdoh-box{
+  display: flex;
+  flex-flow: wrap;
+  width: 20%;
+  height: 100%;
 border-radius: 18px;
 box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.woman {
+  width: 30%;
+  height: 30%;
+  background: url("./woman.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.holbogdoh-title {
+  font-size: 14px;
+  color: black;
+}
+.holbogdoh-title2 {
+  font-size: 14px;
+  color: blue;
+}
+.tom{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .tailbar-heseg {
   font-size: 14px;
@@ -41,7 +75,6 @@ box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
   box-shadow: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
 }
 .rainbow {
-  width: 100%;
   height: 75px;
   background: url("./dolgoin.png");
   background-position: center;
@@ -57,7 +90,9 @@ box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
   flex-direction: column;
 }
 .store-heseg {
+  width: 80%;
   display: flex;
+  justify-content: space-around;
   gap: 32px;
   padding-left: 20px;
   padding-top: 20px;
@@ -93,31 +128,6 @@ box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
   color: black;
   padding-left: 15px;
 }
-
-.woman {
-  width: 55px;
-  height: 55px;
-  background: url("./woman.jpg");
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  right: 90px;
-  bottom: 70px;
-}
-.holbogdoh-title {
-  font-size: 14px;
-  color: black;
-  position: relative;
-  bottom: 60px;
-  right: 50px;
-}
-.holbogdoh-title2 {
-  font-size: 14px;
-  color: blue;
-  position: relative;
-  top: 30px;
-  right: 50px;
-}
 strong {
   font-size: 24px;
   font-weight: 700;
@@ -139,7 +149,7 @@ strong {
 strong{
   font-size: 30px;
 }
-  .scroll-brand{
+.scroll-brand{
     display: flex;
   overflow-x: scroll;
   align-items: center;
@@ -427,6 +437,7 @@ padding-top: 20px;
   background-image: url("./indian\ woman.jpg");
   background-position: center;
   background-size: cover;
+  width: 400px;
  padding-top: 40px;
  padding-left: 30px;
 border-radius: 18px;
@@ -454,6 +465,8 @@ font-weight: 700;
 border-radius: 18px;
 box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.08);
 text-align: center;
+padding-top: 30px;
+width: 30%;
 }
 .fav{
   display: flex;
@@ -625,6 +638,8 @@ position: relative;
 .ungulug{
   font: 30px;
   color: black;
+  background: linear-gradient(90deg, red yellow
+  purple blue);
 }
 .reklam-1{
   display: flex;
@@ -657,7 +672,6 @@ box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
 width: 480px;
 height: 500px;
 border-radius: 18px;
-
 }
 .zuragnuud3{
   background: url("./pic3\ icon.jpg");
@@ -681,7 +695,7 @@ border-radius: 18px;
   background: url("./late1.jpg");
   background-position: center;
   background-size: cover;
-width: 480px;
+width: 450px;
 height: 500px;
 box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
@@ -690,7 +704,7 @@ border-radius: 18px;
   background: url("./late2.jpg");
   background-position: center;
   background-size: cover;
-width: 480px;
+width: 450px;
 height: 500px;
 box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
@@ -699,7 +713,7 @@ border-radius: 18px;
   background: url("./late3.jpg");
   background-position: center;
   background-size: cover;
-width: 480px;
+width: 450px;
 height: 500px;
 box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
@@ -708,7 +722,7 @@ border-radius: 18px;
   background: url("./late4.jpg");
   background-position: center;
   background-size: cover;
-width: 480px;
+width: 450px;
 height: 500px;
 box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
@@ -717,7 +731,7 @@ border-radius: 18px;
   background: url("./late5.jpg");
   background-position: center;
   background-size: cover;
-width: 480px;
+width: 450px;
 height: 500px;
 box-shadow: 2px 4px 12px 0px #00000014;
 border-radius: 18px;
@@ -812,7 +826,7 @@ border-radius: 18px;
     height: 28px;
   }
   .store-icon{
- width: 29px;
+   width: 29px;
     height: 28px;
     padding-left: 0;
   }
@@ -824,10 +838,32 @@ border-radius: 18px;
   text-align: center;
   font-size: 110px;
  }
+  .gift-title{
+  display: flex;
+  position: relative;
+  left: 50px;
+ }
+ .holbogdoh-box{
+  width: 700px;
+  display: flex;
+  flex-flow: wrap;
+  position: relative;
+  top: 60px;
+  right: 180px;
+  margin-bottom: 40px;
+ }
+ .add{
+  position: relative;
+  right: 50px;
+ }
+ .branduud{
+  margin-top: 40px;
+ }
  .store-heseg{
   display: flex;
-  flex-direction: row;
+  padding-left: 0;
  }
+
   .store-title{
     color: black;
     font-size: 18px;
@@ -835,6 +871,7 @@ border-radius: 18px;
     padding-left: 40px;
     display: flex;
     flex-direction: row;
+    padding-left: 0;
   }
  .gift-title{
   font-size: 18px;
@@ -852,10 +889,6 @@ height: 15px;
   .watch{
     height: 200px;
     width: 250px;
-  }
-  .tom{
-    position: relative;
-    background-color: none;
   }
 .ungu-back{
   text-align: center;
@@ -895,9 +928,35 @@ strong{
 }
 .box{
   display: inline-flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 .fav{
   display: inline-flex;
+}
+.tab{
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.only-title{
+  display: flex;
+  gap: 20px;
+}
+.only{
+  font-size: 20px;
+}
+.with{
+  font-size: 20px;
+}
+.une{
+  position: relative;
+  top: 0;
+}
+.mac .une{
+  color: white;
 }
 }
 /* FOR TABLET */
@@ -930,4 +989,51 @@ height: 500px;
 .gift-title{
   font-size: 120%;
 }
+.fav{
+  display: inline-flex;
+}
+.box{
+  display: inline-flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+.reklam{
+  display: inline-flex;
+}
+.reklam-1{
+  display: inline-flex;
+}
+.story-heseg{
+  padding-left: 0;
+  width: 80%;
+}
+.woman{
+  width: 20%;
+  height: 35%;
+}
+.une{
+  position: relative;
+  top: 0;
+}
+.holbogdoh-box{
+  height: 100%;
+  width: 40%;
+}
+.add{
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+}
+/* For com */
+@media screen and (max-width:1440px) and (min-width:1024px){
+  .type{
+    position: relative;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  }
 }
