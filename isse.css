@@ -80,6 +80,7 @@ nav {
   border-radius: 999px;
   text-align: center;
   align-content: center;
+  position: relative;
 }
 .buy{
     color: rgba(0, 113, 227, 1);
@@ -287,19 +288,37 @@ text-align: center;
   left: 100px;
 }
 .ipad-title{
-  height: 33px;
-  width: 430px;
-  background: url("./ipad\ air.png");
-  background-position: center;
-  background-size: cover;
+ display: flex;
+ gap: 10px;
+ position: relative;
+ left: 180px;
+ top: 30px;
+}
+.ipad{
+   font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+.air{
+   font-size: 32px;
+  font-weight: 700;
+   color: blue;
+   font-style: italic;
 }
 .neg{
   font-weight: 400;
   font-size: 18px;
   color: black;
+  position: relative;
+  left: 120px;
+  top: 40px;
 }
 .a{
   display: flex;
+  gap: 10px;
+  position: relative;
+   left: 120px;
+  top: 60px;
 }
 .kart {
   background: url("./kart.jpg");
@@ -507,6 +526,7 @@ text-align: center;
   gap: 13px;
 height: 8px;
 margin: 10px;
+margin-bottom: 20px;
 }
 .dugui{
   width: 8px;
@@ -522,15 +542,28 @@ background: #0000006B;
   justify-content: center;
   padding-bottom: 10px;
 }
+.macbook{
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+  left: 60px;
+}
 .class{
    font-size: 24px;
   font-weight: 400;
   color: black;
   padding-bottom: 15px;
+  position: relative;
+  top:50px;
+  text-align: center;
+  justify-content: center;
 }
 .learn-buy-1{
   position: relative;
-  top:0;
+  top:60px;
 }
 .c{
   display: flex;
@@ -539,9 +572,10 @@ background: #0000006B;
 .clas{
   text-align: center;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 24px;
   position: relative;
   top: 50px;
+  left: 190px;
   width: 40%;
   display: flex;
   flex-flow:wrap;
@@ -556,11 +590,13 @@ justify-content: center;
   height: 44px;
   border-radius: 999px;
   text-align: center;
+  display: flex;
   align-items: center;
-  justify-content: center;
   position: relative;
+  justify-content: center;
   top: 80px;
-  left: 400px;
+  left: 260px;
+  padding-left: 10px;
 }
 .b{
  padding-top: 20px;
@@ -803,17 +839,12 @@ display: flex;
   .donat{
 height: 48px;
   }
-  html{
-    width: 1024px;
-  }
   .tsag{
-    width: 516px;
 height: 490px;
 margin-right: 10px;
 margin-left: 10px;
   }
   .air-pod{
-    width: 516px;
 height: 490px;
 margin-right: 10px;
 margin-left: 10px;
@@ -880,16 +911,57 @@ height: 368px;
   }
   .learn-buy-1{
     padding-bottom: 20px;
+    gap: 10px;
   }
   .cu{
     padding-bottom: 2px;
     margin-top: 2px;
   }
-  
 .mac{
 position: relative;
-left: 1000px;
 overflow-x: hidden;
+}
+.gift-title{
+  position: relative;
+  bottom: 400px;
+}
+.make-title{
+   position: relative;
+  bottom: 400px;
+}
+.shop-gift{
+ position: relative;
+  bottom: 400px;
+  right: 20px;
+}
+.clas{
+padding-right: 40px;
+justify-content: center
+}
+.learn-2{
+  padding-right: 50px;
+}
+.ipad-title{
+  position: relative;
+  left: 90px;
+}
+.neg{
+position: relative;
+left:25px;
+}
+.a{
+position: relative;
+left:20px;
+}
+html{
+  width:100vh;
+}
+.mac{
+position: relative;
+left: 10px;
+}
+.b{
+  background: none
 }
 }
 /* for computer */
@@ -903,5 +975,8 @@ overflow-x: hidden;
   .gift-back{
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  html{
+    width: 100%;
   }
 }
