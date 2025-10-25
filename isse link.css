@@ -98,8 +98,16 @@ box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
   padding-top: 20px;
 }
 .store-title {
-  font-size: 44px;
-  font-weight: 700;
+ font-size: 44px;
+font-weight: 700;
+   margin-bottom: 40px;
+  text-align: center;
+   font-size: 50px;
+      background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+  -webkit-background-clip: text;
+	color: transparent;
+ font-size: 44px;
+font-weight: 700;
 }
 .gift-title {
   font-size: 44px;
@@ -131,12 +139,15 @@ box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
 strong {
   font-size: 24px;
   font-weight: 700;
+   background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+  -webkit-background-clip: text;
+	color: transparent;
 }
 .scrolltoi-title {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-top: 130px;
+  padding-top: 80px;
 }
 .the-latest {
   display: flex;
@@ -144,7 +155,8 @@ strong {
 }
 .latest-title {
   color: gray;
-  font-size: 30px;
+  font-size: 44px;
+font-weight: 700;
 }
 strong{
   font-size: 30px;
@@ -233,11 +245,11 @@ strong{
   display: flex;
 }
 .person-pic {
-  background: url("./person.jpg");
-  background-position: center;
-  background-size: cover;
-  width: 191px;
-  height: 34px;
+ font-size: 44px;
+font-weight: 700;
+ background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+  -webkit-background-clip: text;
+	color: transparent;
 }
 .scroll-brand1{
   display: flex;
@@ -371,13 +383,21 @@ height: 12px;
   top: 30px;
 }
 .only{
-font-size: 24px;
+ font-size: 44px;
 font-weight: 700;
+ background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+  -webkit-background-clip: text;
+	color: transparent;
 }
 .with{
   color: rgba(110, 110, 115, 1);
-font-size: 24px;
-font-weight:  700px;
+ font-size: 44px;
+font-weight: 700;
+}
+.title{
+   color: rgba(110, 110, 115, 1);
+ font-size: 44px;
+font-weight: 700;
 }
 .box{
   display: flex;
@@ -620,7 +640,10 @@ margin: 20px;
 }
 .only-title{
 margin: 60px;
+margin-left: 0;
 margin-top: 20px;
+display: flex;
+  gap: 20px;
 }
 .tavdah-menu{
 margin-top: 20px;
@@ -818,8 +841,11 @@ border-radius: 18px;
   .apple-icon{
    width: 29px;
     height: 28px;
-    padding-left: 80px;
+    padding-left:0;
     justify-content: center;
+  }
+  .person{
+    gap: 10px;
   }
   .haih-icon{
  width: 29px;
@@ -838,45 +864,46 @@ border-radius: 18px;
   text-align: center;
   font-size: 110px;
  }
-  .gift-title{
-  display: flex;
-  position: relative;
-  left: 50px;
- }
  .holbogdoh-box{
-  width: 700px;
+width: 900px;
   display: flex;
-  flex-flow: wrap;
   position: relative;
   top: 60px;
-  right: 180px;
-  margin-bottom: 40px;
+right: 180px;
  }
  .add{
   position: relative;
   right: 50px;
+  display: flex;
+  gap: 20px;
  }
  .branduud{
-  margin-top: 40px;
+  margin-top: 80px;
  }
  .store-heseg{
   display: flex;
   padding-left: 0;
  }
-
-  .store-title{
-    color: black;
-    font-size: 18px;
-    background-color: none;
+.apple-pic{
+  display: inline;
+  width: 180%;
+}
+.store-title{
+    font-size:20px;
     padding-left: 40px;
     display: flex;
     flex-direction: row;
     padding-left: 0;
   }
  .gift-title{
-  font-size: 18px;
-  color: black;
+  font-size:20px;
+  color: gray;
   display: flex;
+  flex-direction: row;
+ }
+ .title{
+ font-size: 20px;
+  font-weight: 700;
  }
    .rainbow{
     width: 425px;
@@ -902,13 +929,16 @@ height: 15px;
     width: 250px;
 }
 strong{
-  font-size: 100%;
+  font-size: 20px;
+  font-weight: 700;
 }
 .latest-title{
-  font-size: 100%;
+  font-size: 20px;
+  font-weight: 700;
 }
 .person-pic{
-  height: 10%;
+  font-size: 20px;
+  font-weight: 700;
 }
 .scrolltoi-title{
     padding-top: 50px;
@@ -918,13 +948,6 @@ strong{
 }
 .reklam-1{
   display: inline-flex;
-}
-.tab{
-  width: 200px;
-  height: 100px;
-}
-.end{
-  position: sticky;
 }
 .box{
   display: inline-flex;
@@ -936,17 +959,17 @@ strong{
   display: inline-flex;
 }
 .tab{
-  width: 400px;
+  width:150px;
   height: 50px;
   text-align: center;
   justify-content: center;
-}
-.only-title{
-  display: flex;
-  gap: 20px;
+  padding-right: 60px;
 }
 .only{
   font-size: 20px;
+   background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+  -webkit-background-clip: text;
+	color: transparent;
 }
 .with{
   font-size: 20px;
@@ -957,6 +980,13 @@ strong{
 }
 .mac .une{
   color: white;
+}
+.tom{
+  padding-left: 20px;
+}
+.woman{
+  padding-left: 20px;
+  background: none;
 }
 }
 /* FOR TABLET */
@@ -984,10 +1014,20 @@ height: 500px;
   width: 303px;
 }
 .store-title{
-  font-size: 120%;
+  font-size: 34px;
+    font-weight: 700;
 }
 .gift-title{
-  font-size: 120%;
+  font-size: 34px;
+    font-weight: 700;
+}
+.latest-title{
+   font-size: 34px;
+    font-weight: 700;
+}
+.person-pic{
+   font-size: 34px;
+    font-weight: 700;
 }
 .fav{
   display: inline-flex;
@@ -1025,6 +1065,14 @@ height: 500px;
   gap: 30px;
   justify-content: space-between;
 }
+strong{
+    font-size: 34px;
+    font-weight: 700;
+}
+.only{
+   font-size: 34px;
+    font-weight: 700;
+}
 }
 /* For com */
 @media screen and (max-width:1440px) and (min-width:1024px){
@@ -1035,5 +1083,25 @@ height: 500px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  }
+  .story-title{
+    font-size: 44px;
+    font-weight: 700;
+  }
+  .only{
+     font-size: 34px;
+    font-weight: 700;
+  }
+  .title{
+      font-size: 34px;
+    font-weight: 700;
+  }
+  .with{
+       font-size: 34px;
+    font-weight: 700;
+  }
+  .gift-title{
+     font-size: 44px;
+    font-weight: 700;
   }
 }
