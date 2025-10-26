@@ -82,6 +82,32 @@ nav {
   align-content: center;
   position: relative;
 }
+.phone-learn{
+  background-color: rgba(0, 113, 227, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  width: 123px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 999px;
+  text-align: center;
+  align-content: center;
+  position: relative;
+}
+.learn11{
+    background-color: rgba(0, 113, 227, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  width: 123px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 999px;
+  text-align: center;
+  align-content: center;
+  position: relative;
+}
 .buy{
     color: rgba(0, 113, 227, 1);
   font-size: 16px;
@@ -188,9 +214,19 @@ nav {
   width: 26px;
   height: 32px;
 }
+.apple-tom-icon-1{
+background: url("./Vector\ \(6\).png");
+  width: 26px;
+  height: 32px;
+}
 .songoltuudiin-tom-title{
   font-size: 32px;
   font-weight: 700;
+}
+.iph{
+    font-size: 32px;
+  font-weight: 700;
+  color: white;
 }
 .cu{
 position: relative;
@@ -206,6 +242,15 @@ text-align: center;
 .classic-1{
    font-size: 24px;
   color: white;
+}
+.phone-tom{
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+.phone{
+ font-size: 24px;
+  color: black;
 }
 .classic {
   font-size: 24px;
@@ -561,6 +606,16 @@ background: #0000006B;
   text-align: center;
   justify-content: center;
 }
+.iphon{
+    font-size: 24px;
+  font-weight: 400;
+  color: black;
+  padding-bottom: 15px;
+  position: relative;
+  top:50px;
+  text-align: center;
+  justify-content: center;
+}
 .learn-buy-1{
   position: relative;
   top:60px;
@@ -608,6 +663,12 @@ justify-content: center;
   top: 350px;
   justify-content: center;
 }
+.learn-ih{
+  display: flex;
+}
+.titl{
+  display: flex;
+}
 /* FOR PHONE */
 @media screen and (max-width:435px) and (min-width:320px) {
 body{
@@ -615,7 +676,6 @@ body{
   flex-direction: column;
 }
   nav{
-  gap: 10px;
   display: flex;
   justify-content: flex-start;
 }
@@ -671,6 +731,9 @@ display: flex;
 .hello-title{
   position: relative;
   top: 305px;
+}
+.learn11{
+  position: relative;
 }
 .tablet{
     background: url("./tablet.jpg");
@@ -782,28 +845,146 @@ display: flex;
 }
 .classic{
   color: white;
-  
+  display: none;
+}
+.dual1{
+  display: flex;
+  gap: 15px;
+  position: relative;
+  left: 90px;
+  top: 210px;
 }
 .learn-buy{
   display: flex;
   gap: 20px;
+  display: none;
 }
 .songoltuudiin-tom-title-1{
   color: black;
+  display: none;
 }
 .classic-1{
   color: black;
+  display: none;
 }
 .cu{
   position: relative;
   top: 80px;
 }
+
 .learn-buy-1{
   position: relative;
-  top: 100px;
+  top: 50px;
+  left: 10px;
 }
 .learn-buy-1 .buy{
   display: none;
+}
+.ipad-title{
+  position: relative;
+  left: 40px;
+}
+.neg{
+  position: relative;
+  left: -20px;
+}
+.a{
+  position: relative;
+  left: -30px;
+}
+.clas{
+  width: 60%;
+  position: relative;
+  left: 90px;
+}
+.learn-2{
+  position: relative;
+  left: 120px;
+  top: 65px;
+}
+
+.mac{
+  width:100%;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.learn-buy-2{
+  position: relative;
+  top: 80px;
+  display: none;
+}
+.phone-tom{
+  width: 60%;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 70px;
+}
+.phone{
+width: 60%;
+text-align: center;
+position: relative;
+left: 70px;
+top: 30px;
+}
+.phone-learn{
+  position: relative;
+  left: 120px;
+  top: 40px;
+}
+.songoltuudiin-tom-title{
+  display: none;
+}
+.iph-tom{
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+.iphon{
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  width: 60%;
+  text-align: center;
+  position: relative;
+  left: 60px;
+  top: 220px;
+}
+.learn-ih{
+  position: relative;
+  left: 20px;
+  position: relative;
+  left: 60px;
+  top: 240px;
+}
+.chategor-1{
+  position: relative;
+  top: 5px;
+}
+.chategor-2{
+  position: relative;
+  top: 5px;
+}
+.chategor-3{
+  position: relative;
+  top: 5px;
+}
+.chategor-4{
+  position: relative;
+  top: 5px;
+}
+.chategor-5{
+  position: relative;
+  top: 5px;
+}
+.comedy{
+  position: relative;
+  top: 5px;
+}
+.titl{
+  display: flex;
+  position: relative;
+  left: 40px;
 }
 }
 /* FOR TABLET */
@@ -935,11 +1116,14 @@ overflow-x: hidden;
   right: 20px;
 }
 .clas{
-padding-right: 40px;
-justify-content: center
+padding-right: 50px;
+justify-content: center;
+position: relative;
+left: 160px;
 }
 .learn-2{
-  padding-right: 50px;
+  position: relative;
+  left: 160px;
 }
 .ipad-title{
   position: relative;
@@ -949,12 +1133,12 @@ justify-content: center
 position: relative;
 left:25px;
 }
+html{
+  width: 1024px;;
+}
 .a{
 position: relative;
 left:20px;
-}
-html{
-  width:100vh;
 }
 .mac{
 position: relative;
@@ -963,6 +1147,30 @@ left: 10px;
 .b{
   background: none
 }
+.phone-tom{
+    display: none;
+  }
+  .phone{
+    display: none;
+  }
+  .phone-learn{
+    display: none;
+  }
+  .iph-tom{
+    display: none;
+  }
+  .iphon{
+    display: none;
+  }
+  .learn-ih{
+    display: none;
+  }
+  .dual1{
+    display: flex;
+  }
+  .apple-tom-icon-1{
+    display: none;
+  }
 }
 /* for computer */
 @media screen and (max-width:1440px) and (min-width:1024px) {
@@ -978,5 +1186,29 @@ left: 10px;
   }
   html{
     width: 100%;
+  }
+  .phone-tom{
+    display: none;
+  }
+  .phone{
+    display: none;
+  }
+  .phone-learn{
+    display: none;
+  }
+  .iph-tom{
+    display: none;
+  }
+  .iphon{
+    display: none;
+  }
+  .learn-ih{
+    display: none;
+  }
+  .dual1{
+    display: flex;
+  }
+  .apple-tom-icon-1{
+    display: none;
   }
 }
