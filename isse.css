@@ -713,6 +713,9 @@ display: flex;
 .aa1{
   background-position: center;
   background-size: cover;
+   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .tses{
   background: url("./globalnav-menutrigger-bread-top.png");
@@ -765,11 +768,6 @@ display: flex;
 width: 390px;
 height: 500px;
 position: relative;
-}
-.aa1{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 .pre{
   width: 100%;
@@ -1150,25 +1148,25 @@ left: 10px;
 .phone-tom{
     display: none;
   }
-  .phone{
+.phone{
     display: none;
   }
-  .phone-learn{
+.phone-learn{
     display: none;
   }
-  .iph-tom{
+.iph-tom{
     display: none;
   }
-  .iphon{
+.iphon{
     display: none;
   }
-  .learn-ih{
+.learn-ih{
     display: none;
   }
-  .dual1{
+.dual1{
     display: flex;
   }
-  .apple-tom-icon-1{
+.apple-tom-icon-1{
     display: none;
   }
 }
